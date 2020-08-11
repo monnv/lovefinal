@@ -197,7 +197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 167
     y: 72
-    width: 77.46268
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -241,8 +241,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1709298744}
-  selectedCommands:
-  - {fileID: 1709298749}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -422,7 +421,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286.82074
     y: 110.58208
-    width: 199.85068
+    width: 159.85068
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -451,7 +450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116
     y: 216
-    width: 186.11934
+    width: 146.11934
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -480,7 +479,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8
     y: 130
-    width: 146.71637
+    width: 106.71637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -758,9 +757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 538.0085
-    y: 261.9112
-    width: 109.10445
+    x: 355.9194
+    y: 318.62775
+    width: 69.10445
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -811,9 +810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 542.4861
-    y: 209.6724
-    width: 137.76115
+    x: 488.7549
+    y: 221.6127
+    width: 97.761154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -918,7 +917,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1709298749
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
