@@ -1,23 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
 using UnityEngine;
 
 public class WinScript : MonoBehaviour
 {
     private int pointsToWin;
-    private int currentPoints;
-    public GameObject myItems;
+    public static int currentPoints;
+    public GameObject BPObjects;
 
     void Start()
     {
-        pointsToWin = myItems.transform.childCount;
+        pointsToWin = BPObjects.transform.childCount;
     }
 
    void Update()
     {
-        if (currentPoints >= pointsToWin)
+        if (currentPoints == pointsToWin)
         {
             //Win
             transform.GetChild(0).gameObject.SetActive(true);
@@ -25,8 +23,4 @@ public class WinScript : MonoBehaviour
 
     }
 
-    public void AddPoints()
-    {
-        currentPoints++;
-    }
 }

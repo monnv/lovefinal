@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/L2-VN.unity
     guid: a2ba9d2de40cd8a449201b08abf78d4f
   - enabled: 1
-    path: Assets/Scenes/L4-Map.unity
-    guid: 9ade539dd2e157e45a646a51bd1e5ae9
-  - enabled: 1
     path: Assets/Scenes/L3-backpack.unity
     guid: f553acde6f69549499b2cf43251214b1
+  - enabled: 1
+    path: Assets/Scenes/L4-Map.unity
+    guid: 9ade539dd2e157e45a646a51bd1e5ae9
   - enabled: 1
     path: Assets/Scenes/L6-Stack.unity
     guid: 300a328a2457991408b24231aeb4ad1c
