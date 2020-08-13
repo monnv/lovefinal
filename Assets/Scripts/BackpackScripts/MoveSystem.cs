@@ -1,7 +1,8 @@
-﻿using Fungus;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 using UnityEngine;
 
 public class MoveSystem : MonoBehaviour
@@ -64,6 +65,9 @@ public class MoveSystem : MonoBehaviour
             {
                 this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
                 finish = true;
+
+            GameObject.Find("PointHandler").GetComponent<WinScript>().AddPoints();
+
             }
             else
             {
