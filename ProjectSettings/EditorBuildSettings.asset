@@ -9,22 +9,22 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
+    path: Assets/Scenes/L1-StartComic.unity
     guid: 6c88cd2215301464e93d4d615120b51a
   - enabled: 1
-    path: Assets/Scenes/L1-VN.unity
+    path: Assets/Scenes/L2-VN.unity
     guid: a2ba9d2de40cd8a449201b08abf78d4f
   - enabled: 1
-    path: Assets/Scenes/L2-Map.unity
+    path: Assets/Scenes/L4-Map.unity
     guid: 9ade539dd2e157e45a646a51bd1e5ae9
   - enabled: 1
-    path: Assets/Scenes/L3-Drop.unity
+    path: Assets/Scenes/L3-backpack.unity
     guid: f553acde6f69549499b2cf43251214b1
   - enabled: 1
-    path: Assets/Scenes/L4-Stack.unity
+    path: Assets/Scenes/L6-Stack.unity
     guid: 300a328a2457991408b24231aeb4ad1c
   - enabled: 1
-    path: Assets/Scenes/EndScene.unity
+    path: Assets/Scenes/L9-EndComic.unity
     guid: b86ada149757e3b4e81fcabe21b65039
   - enabled: 1
     path: Assets/Scenes/Credits.unity
